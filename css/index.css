@@ -15,7 +15,7 @@ body
 
 #bloc_page
 {
-	width: 1000px;
+	width: 1200px;
 	margin: auto;
 }
 
@@ -50,8 +50,8 @@ header h1
 section
 {
 	display: inline-block;
-	
-	width: 1000px;
+	height: 500px;
+	width: 1200px;
 	color: #FFFFFF;
 }
 
@@ -65,15 +65,17 @@ article, aside
 
 article
 {
-	background-color: #004545;
+	background-color: #004050;
 	width: 70%;
+	height: 100%;
 }
 
 aside
 {
-	background-color: #006565;
+	background-color: #005060;
 	float: right;
 	width: 30%;
+	height: 100%;
 }
 
 article h1, article p, aside h1, aside p
@@ -89,4 +91,18 @@ footer
 	width: 100%;
 	background-color: #007080;
 	color: #FFFFFF;
+}
+
+footer h1
+{
+	margin-left: 10px;
+}
+
+.horizontal-line
+{
+	display: block;
+	height: 1px;
+	width: 80%;
+	margin-left: 10px;
+	background-color: #FFFFFF;
 }
