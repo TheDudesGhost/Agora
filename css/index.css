@@ -1,0 +1,69 @@
+/* Eléments principaux de la page*/
+
+body
+{
+	/*background: url('../images/paper.png');*/
+	font-family: "Open-sans", Sans-serif;
+	color: #181818;
+}
+
+#bloc_page
+{
+	width: 1000px;
+	margin: auto;
+}
+
+/* HEADER */
+
+header
+{
+	background-color: #003040;
+	color: #FFFFFF;
+}
+
+#bandeau_principal
+{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#logo, header h1
+{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+header h1
+{
+	margin-left: 10px;
+	font-size: 3.2em;
+}
+
+
+/* BODY */
+section
+{
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+article, aside
+{
+	background-color: #FF7F50;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+article
+{
+	margin-right: 5%;
+	width: 75%;
+}
+
+aside
+{
+	width: 20%;
+}
+
