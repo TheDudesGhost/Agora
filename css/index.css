@@ -1,4 +1,10 @@
 /* Eléments principaux de la page*/
+* 
+{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body
 {
@@ -43,14 +49,15 @@ header h1
 /* BODY */
 section
 {
+	display: inline-block;
 	
-	margin-top: 10px;
-	margin-bottom: 10px;
+	width: 1000px;
+	color: #FFFFFF;
 }
 
 article, aside
 {
-	background-color: #FF7F50;
+	
 	display: inline-block;
 	vertical-align: top;
 	text-align: justify;
@@ -58,12 +65,28 @@ article, aside
 
 article
 {
-	margin-right: 5%;
-	width: 75%;
+	background-color: #004545;
+	width: 70%;
 }
 
 aside
 {
-	width: 20%;
+	background-color: #006565;
+	float: right;
+	width: 30%;
 }
 
+article h1, article p, aside h1, aside p
+{
+	margin-left: 10px;
+}
+
+
+/* FOOTER */
+footer
+{
+	display: inline-block;
+	width: 100%;
+	background-color: #007080;
+	color: #FFFFFF;
+}
